@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="XAML_podstawy_sb2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAML_podstawy_sb2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="OknoGlowne" Background="#FFBFF7F3">
+        <Button x:Name="ZapiszBtn" Content="Zapisz" Margin="0,150,0,0" VerticalAlignment="Top" Height="35" Width="130" HorizontalAlignment="Center" FontFamily="Algerian" Foreground="#FF3A7CFF" FontSize="16" FontWeight="Black" Click="ZapiszBtn_Click"/>
+
+    </Grid>
+</Page>
