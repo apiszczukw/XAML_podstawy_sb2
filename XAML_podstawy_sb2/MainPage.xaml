@@ -10,6 +10,11 @@
 
     <Grid x:Name="OknoGlowne" Background="#FFBFF7F3">
         <Button x:Name="ZapiszBtn" Content="Zapisz" Margin="0,150,0,0" VerticalAlignment="Top" Height="35" Width="130" HorizontalAlignment="Center" FontFamily="Algerian" Foreground="#FF3A7CFF" FontSize="16" FontWeight="Black" Click="ZapiszBtn_Click"/>
+        <TextBox x:Name="ImieTbx" HorizontalAlignment="Left" Margin="421,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Foreground="Black" Background="#66EFF7F6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="319,70,0,0" TextWrapping="Wrap" Text="Podaj imie:" VerticalAlignment="Top" FontSize="14" FontFamily="Algerian" Foreground="Black"/>
+        <TextBox x:Name="NazwiskoTbx" HorizontalAlignment="Left" Margin="838,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Foreground="Black" Background="#66EFF7F6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="700,70,0,0" TextWrapping="Wrap" Text="Podaj nazwisko:" VerticalAlignment="Top" FontSize="14" FontFamily="Algerian" Foreground="Black"/>
+        <Button x:Name="ZapiszDoXmlBtn" Content="Zapisz do XML" Margin="0,221,0,0" VerticalAlignment="Top" Height="35" Width="162" HorizontalAlignment="Center" FontFamily="Algerian" Foreground="#FF3A7CFF" FontSize="16" FontWeight="Black" Click="ZapiszDoXmlBtn_Click"/>
 
     </Grid>
 </Page>
